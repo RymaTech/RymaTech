@@ -1,0 +1,13 @@
+.header-image-container,
+.header-image-item {
+  border: solid 2px darkgrey;
+}
+
+.header-image-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.header-image-item {
+}
