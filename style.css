@@ -1,13 +1,43 @@
 .header-image-container,
-.header-image-item {
+.header-image-item,
+.title-font,
+.profile-container,
+.projects-container,
+.tech-stack-container,
+.contact-container,
+.gallery-container,
+.p-item{
   border: solid 2px darkgrey;
 }
 
 .header-image-container {
   display: flex;
-  height: 100%;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: url(images/bg.jpg) no-repeat center center;
+  background-size: cover;
 }
 
-.header-image-item {
+@font-face {
+  font-family: Baron-Neue;
+  src: url(Baron-Neue.otf);
+}
+
+.title-font {
+  font-size: 3rem;
+  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  color: white;
+  text-align: center;
+}
+
+.title-font-black {
+  color: black;
+  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-size: 2rem;
+}
+
+.profile-item {
+  width: 50%;
 }
