@@ -6,7 +6,14 @@
 .tech-stack-container,
 .contact-container,
 .gallery-container,
-.p-item{
+.p-item,
+.photos,
+.img-container,
+.col,
+.profile-container,
+.p-container,
+.title-font-black,
+.p-item {
   border: solid 2px darkgrey;
 }
 
@@ -36,8 +43,5 @@
   color: black;
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
   font-size: 2rem;
-}
-
-.profile-item {
-  width: 50%;
+  text-align: center;
 }
