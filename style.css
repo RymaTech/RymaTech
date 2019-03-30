@@ -1,4 +1,4 @@
-.header-image-container,
+/* .header-image-container,
 .header-image-item,
 .title-font,
 .profile-container,
@@ -13,9 +13,32 @@
 .profile-container,
 .p-container,
 .title-font-black,
-.p-item {
-  border: solid 2px darkgrey;
+.p-item,
+.tech-stack-container1,
+.box1,
+.box2,
+.box3 {
+  border: 1px #ccc solid;
+  padding: 20px;
+} */
+
+/* Overall pages display classes */
+
+@font-face {
+  font-family: Baron-Neue;
+  src: url(Baron-Neue.otf);
 }
+
+.title-font-black {
+  color: black;
+  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: solid 6px #fee001;
+  display: inline-block;
+}
+
+/* Header section */
 
 .header-image-container {
   display: flex;
@@ -27,11 +50,6 @@
   background-size: cover;
 }
 
-@font-face {
-  font-family: Baron-Neue;
-  src: url(Baron-Neue.otf);
-}
-
 .title-font {
   font-size: 3rem;
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
@@ -39,9 +57,106 @@
   text-align: center;
 }
 
-.title-font-black {
-  color: black;
-  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
-  font-size: 2rem;
-  text-align: center;
+/* Tech Stack section */
+
+img {
+  height: 20vh;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) opacity(0.6);
+}
+
+.tech-stack-container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-self: center;
+}
+
+.img-items {
+  width: 17vw;
+  object-fit: contain;
+}
+
+/* Projects */
+.img-projects {
+  height: 30vh;
+  width: auto;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* hover styles */
+.project-listing {
+  position: relative;
+}
+
+.project-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.project-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.app-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: rgba(254, 224, 1, 0.4);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-listing:hover .app-title {
+  opacity: 1;
+}
+
+.project-listing:hover .project-image img {
+  filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+  .app-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}
+
+/* Contact section  */
+
+.contact-container {
+  display: flex;
+}
+
+.contactme {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.project-container,
+.contact-container,
+.tech-stack-container1 {
+  margin: 5rem;
 }
