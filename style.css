@@ -9,16 +9,26 @@
   color: black;
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
   font-size: 2rem;
-  border-bottom: solid 6px #fee001;
+  border-bottom: solid 15px #fee001;
   display: inline-block;
 }
 
-.project-container,
+.project-container {
+  margin: 3rem 2rem 3rem 2rem;
+}
 .contact-container,
 .tech-stack-container1 {
   margin: 5rem;
 }
 
+/* Nav bar */
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 5px #fee001;
+  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+}
 /* Header section */
 
 .header-image-container {
