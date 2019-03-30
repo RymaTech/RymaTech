@@ -18,10 +18,12 @@
     </header>
 
     <main>
-      <h3 class="title-font-black">PROFILE</h3>
-
-      <h3 class="title-font-black">PROJECTS</h3>
-
+      <div class="title-containers">
+        <h3 class="title-font-black">PROFILE</h3>
+      </div>
+      <div class="title-containers">
+        <h3 class="title-font-black">PROJECTS</h3>
+      </div>
       <!-- project gallary row 2 ---------------------------------------------->
 
       <div class="child-page-listing">
@@ -92,6 +94,7 @@
         <div class="project-container">
           <article class="project-listing">
             <a
+              target="_blank"
               class="app-title"
               href="https://github.com/RymaTech/FAC-Week3-Project-APIs"
             >
@@ -99,7 +102,7 @@
             </a>
 
             <div class="project-image">
-              <a href="#">
+              <a href="#" target="_blank">
                 <img
                   width="300"
                   height="169"
@@ -115,7 +118,7 @@
             <a class="app-title" href="#"> World Search! </a>
 
             <div class="project-image">
-              <a href="#">
+              <a href="#" target="_blank">
                 <img
                   width="300"
                   height="169"
@@ -129,6 +132,7 @@
 
           <article class="project-listing">
             <a
+              target="_blank"
               class="app-title"
               href="https://github.com/RymaTech/FAC-Week2-Project-TDD"
             >
@@ -136,7 +140,7 @@
             </a>
 
             <div class="project-image">
-              <a href="#">
+              <a href="#" target="_blank">
                 <img
                   width="300"
                   height="169"
@@ -150,8 +154,9 @@
         </div>
       </div>
 
-      <h3 class="title-font-black">TECH-STACK</h3>
-
+      <div class="title-containers">
+        <h3 class="title-font-black">TECH-STACK</h3>
+      </div>
       <section class="projects-container"></section>
 
       <section class="tech-stack-container1">
@@ -159,21 +164,21 @@
           <img
             src="./images/tech-stack/js.png"
             alt="JavaScript Icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
         <div class="box2">
           <img
             src="./images/tech-stack/node.png"
             alt="Node.js icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
         <div class="box3">
           <img
             src="./images/tech-stack/react.png"
             alt="React.js Icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
       </section>
@@ -183,21 +188,21 @@
           <img
             src="./images/tech-stack/postgre.png"
             alt="PostgreSQL Icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
         <div class="box2 ">
           <img
             src="./images/tech-stack/express.png"
             alt="express Icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
         <div class="box3">
           <img
             src="./images/tech-stack/heroku.png"
             alt="heroku icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
       </section>
@@ -207,34 +212,63 @@
           <img
             src="./images/tech-stack/git.png"
             alt="git Icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
         <div class="box2">
           <img
             src="./images/tech-stack/html.png"
             alt="html icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
         <div class="box3">
           <img
             src="./images/tech-stack/css.png"
             alt="css Icon"
-            class="img-items"
+            class="img-items grey-img"
           />
         </div>
       </section>
     </main>
     <footer>
-      <h3 class="title-font-black">CONTACT</h3>
+      <div class="title-containers">
+        <h3 id="break" class="title-font-black">CONTACT</h3>
+      </div>
       <section class="contact-container">
-        <div class="contactme"></div>
+        <div class="contactme">
+          <a href="mailto: ryanmcavoy@protonmail.com" target="_blank"
+            ><img
+              class="email-icon icon"
+              src="images/email.png"
+              alt="email icon"
+          /></a>
+        </div>
+        <div href="tel:07746656061" class="contactme">
+          <a
+            ><img
+              class="iphone-icon icon"
+              src="images/iphone.png"
+              alt="iphone icon"
+          /></a>
+        </div>
 
-        <div class="contactme"></div>
-
-        <div class="contactme"></div>
-        <div class="contactme"></div>
+        <div class="contactme">
+          <a href="https://www.linkedin.com/in/ryma/" target="_blank"
+            ><img
+              class="linkedin-icon icon"
+              src="images/linkedin-logo.png"
+              alt="LinkedIN icon"
+          /></a>
+        </div>
+        <div class="contactme">
+          <a href="https://github.com/RymaTech" target="_blank"
+            ><img
+              class="github-icon icon"
+              src="images/github-logo.png"
+              alt="Github icon"
+          /></a>
+        </div>
       </section>
 
       <section class="map">
