@@ -9,7 +9,7 @@
   color: black;
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
   font-size: 2rem;
-  border-bottom: solid 15px #fee001;
+  border-bottom: solid 6px #fee001;
   display: inline-block;
 }
 
@@ -17,7 +17,8 @@
   margin: 3rem 2rem 3rem 2rem;
 }
 .contact-container,
-.tech-stack-container1 {
+.tech-stack-container1,
+.title-containers {
   margin: 5rem;
 }
 
@@ -25,10 +26,42 @@
 
 .ul-container {
   display: flex;
-  justify-content: space-between;
-  border-top: solid 5px #fee001;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: solid 6px #fee001;
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  height: 4rem;
+  font-size: 17.5px;
+  background-color: #101010;
+  position: fixed;
+  min-width: 100%;
+  z-index: 4;
 }
+
+.ryan-li {
+  color: white;
+  padding: 2rem;
+  flex: 2;
+}
+
+.nav-li {
+  color: white;
+  padding: 2rem;
+  flex: 1;
+}
+
+.nav-li:hover {
+  color: white;
+  padding: 2rem;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #fee001;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Header section */
 
 .header-image-container {
@@ -76,7 +109,8 @@
 }
 
 .app-title {
-  font-size: 1.5em;
+  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
   z-index: 1;
@@ -88,7 +122,7 @@
   opacity: 0;
   transition: opacity 0.5s;
   background: rgba(254, 224, 1, 0.4);
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
