@@ -35,7 +35,7 @@
   background-color: #101010;
   position: fixed;
   min-width: 100%;
-  z-index: 4;
+  z-index: 200;
 }
 
 .ryan-li {
@@ -79,6 +79,51 @@ a {
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
   color: white;
   text-align: center;
+  z-index: 100;
+}
+
+.astronaut {
+  z-index: 10;
+  position: absolute;
+  height: 45vh;
+  width: auto;
+  animation-name: float;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  /* animation-delay: 1s; */
+  animation-timing-function: linear;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(-19rem);
+  }
+  10% {
+    transform: translateY(5rem);
+  }
+  15% {
+    transform: translateX(8rem);
+  }
+  20% {
+    transform: translateY(12rem);
+    transform: rotate(-20deg);
+  }
+  25% {
+    transform: translateX(15rem);
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: translateX(25rem);
+  }
+  50% {
+    transform: translateY(-5rem);
+  }
+  70% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: translateX(90rem);
+  }
 }
 
 /* PROFILE --------------------- */
