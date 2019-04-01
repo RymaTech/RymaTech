@@ -14,10 +14,10 @@
       <nav class="nav-container">
         <ul class="ul-container">
           <li class="ryan-li">RYAN MCAVOY</li>
-          <a href="#"><li class="nav-li">PROFILE</li></a>
-          <a href="#"><li class="nav-li">PROJECTS</li></a>
-          <a href="#"><li class="nav-li">TECH-STACK</li></a>
-          <a href="#"><li class="nav-li">CONTACT</li></a>
+          <a href="#profile"><li class="nav-li">PROFILE</li></a>
+          <a href="#projects"><li class="nav-li">PROJECTS</li></a>
+          <a href="#tech"><li class="nav-li">TECH-STACK</li></a>
+          <a href="#contact"><li class="nav-li">CONTACT</li></a>
         </ul>
       </nav>
 
@@ -28,10 +28,69 @@
     </header>
 
     <main>
-      <div class="title-containers">
+      <div class="title-containers" id="profile">
         <h3 class="title-font-black">PROFILE</h3>
       </div>
-      <div class="title-containers">
+
+      <!-- css grid --------------------------------------- -->
+
+      <div class="grid">
+        <div class="box box1">
+          <!-- <img class="ryan-img" src="images/ireland.jpg" alt="photo of me" /> -->
+        </div>
+        <div class="box box2">
+          <!-- <img class="ryan-img" src="images/ryan.jpg" alt="photo of me" /> -->
+        </div>
+        <div class="box box3">
+          <p class="grid-paragraph">
+            On 31st July 2018 I made the decision to leave behind a career in
+            law and take the plunge into my passion, software development. It
+            was on the aforementioned date that I began completing the
+            prerequisites to gain a place onto the highly competitive Founders &
+            Coders programme.
+          </p>
+          <p class="grid-paragraph">
+            Prior to joining Founders & Coders, I was becoming more and more
+            aware of technology and its impact on our everyday lives. I began
+            following technology news and attending the occasional tech meetup.
+            I have always been entrepreneurial and once I discovered the
+            capabilities of technology, I began coming up with solutions to
+            everyday problems all of which had technology at their core.
+            Naturally, I did not have the skills or finance to build these
+            ideas. A desire to not only create these ideas but understand how
+            they were built lead me to learn how to code. As a result, I have
+            discovered a real passion for software development.
+          </p>
+          <p class="grid-paragraph">
+            I am now looking for a JavaScript Developer position, preferably
+            with a tech stack that includes Node.js and React.js, which will
+            allow me to build upon my one-year of software development
+            experience.
+          </p>
+        </div>
+
+        <div class="box box4">
+          <!-- <img class="ryan-img" src="images/FAC-Crew.jpg" alt="photo of me" /> -->
+        </div>
+        <div class="box box5">
+          <!-- <img class="ryan-img" src="images/oasis.jpg" alt="photo of me" /> -->
+        </div>
+
+        <div class="box box6">
+          <!-- <img class="ryan-img" src="images/ryan-mum.jpg" alt="photo of me" /> -->
+        </div>
+        <div class="box box7">
+          <!-- <img
+            class="ryan-img"
+            src="images/dev-profile.jpg"
+            alt="photo of me"
+          /> -->
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------- -->
+
+      <div class="title-containers" id="projects">
         <h3 class="title-font-black">PROJECTS</h3>
       </div>
       <!-- project gallary row 2 ---------------------------------------------->
@@ -227,27 +286,27 @@
         </div>
       </div>
       <!-- Tech-Stack section --------------------------------------------------->
-      <div class="title-containers">
+      <div class="title-containers" id="tech">
         <h3 class="title-font-black">TECH-STACK</h3>
       </div>
       <section class="projects-container"></section>
 
       <section class="tech-stack-container1">
-        <div class="box1">
+        <div>
           <img
             src="./images/tech-stack/js.png"
             alt="JavaScript Icon"
             class="img-items grey-img"
           />
         </div>
-        <div class="box2">
+        <div>
           <img
             src="./images/tech-stack/node.png"
             alt="Node.js icon"
             class="img-items grey-img"
           />
         </div>
-        <div class="box3">
+        <div>
           <img
             src="./images/tech-stack/react.png"
             alt="React.js Icon"
@@ -257,21 +316,21 @@
       </section>
 
       <section class="tech-stack-container1">
-        <div class="box1">
+        <div>
           <img
             src="./images/tech-stack/postgre.png"
             alt="PostgreSQL Icon"
             class="img-items grey-img"
           />
         </div>
-        <div class="box2 ">
+        <div>
           <img
             src="./images/tech-stack/express.png"
             alt="express Icon"
             class="img-items grey-img"
           />
         </div>
-        <div class="box3">
+        <div>
           <img
             src="./images/tech-stack/heroku.png"
             alt="heroku icon"
@@ -281,21 +340,21 @@
       </section>
 
       <section class="tech-stack-container1">
-        <div class="box1">
+        <div>
           <img
             src="./images/tech-stack/git.png"
             alt="git Icon"
             class="img-items grey-img"
           />
         </div>
-        <div class="box2">
+        <div>
           <img
             src="./images/tech-stack/html.png"
             alt="html icon"
             class="img-items grey-img"
           />
         </div>
-        <div class="box3">
+        <div>
           <img
             src="./images/tech-stack/css.png"
             alt="css Icon"
@@ -306,8 +365,8 @@
     </main>
     <!-- Contact section --------------------------------------------------->
     <footer>
-      <div class="title-containers">
-        <h3 id="break" class="title-font-black">CONTACT</h3>
+      <div class="title-containers" id="contact">
+        <h3 id="break" class="title-font-black" id="contact">CONTACT</h3>
       </div>
       <section class="contact-container">
         <div class="contactme">

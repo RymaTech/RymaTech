@@ -81,6 +81,62 @@ a {
   text-align: center;
 }
 
+/* PROFILE --------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 2fr;
+  grid-gap: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: #8d8d8d;
+  font-family: 'baron-neue-regular', 'Helvetica', 'Arial';
+  font-weight: 400;
+  height: 65vh;
+  /* grid-auto-rows: minmax(90vh); */
+}
+
+.box3 {
+  grid-column: 3/3;
+  grid-row: 4/1;
+}
+
+.grid-paragraph {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  padding: 0;
+  line-height: 1.5;
+}
+.box1 {
+  background: url(images/dev-profile.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.box2 {
+  background: url(images/ryan.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.box4 {
+  background: url(images/FAC-Crew.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.box5 {
+  background: url(images/ireland.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.box6 {
+  background: url(images/oasis.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.box7 {
+  background: url(images/ryan-mum.jpg) no-repeat center center;
+  background-size: cover;
+}
 /* Projects */
 .img-projects {
   height: 30vh;
