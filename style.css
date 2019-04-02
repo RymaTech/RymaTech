@@ -88,7 +88,7 @@ a {
   height: 45vh;
   width: auto;
   animation-name: float;
-  animation-duration: 180s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
   /* animation-delay: 1s; */
   animation-timing-function: linear;
@@ -136,9 +136,31 @@ a {
 .star7,
 .star8,
 .star9,
-.star10 {
+.star10,
+.star11,
+.star12,
+.star13,
+.star14,
+.star15,
+.star16,
+.star17,
+.star18,
+.star19,
+.star20,
+.star21,
+.star22,
+.star23,
+.star24,
+.star25,
+.star26,
+.star27,
+.star28,
+.star29,
+.star30 {
   z-index: 8;
   border-radius: 50%;
+  /* height: 0.5vh;
+  width: 0.5vh; */
   height: 0.5vh;
   width: 0.5vh;
   opacity: 0.5;
@@ -147,6 +169,7 @@ a {
   animation-iteration-count: infinite;
 
   /* background-color: #fee001; */
+  /* background-color: red; */
   position: absolute;
   animation-duration: 10s;
   top: -230px;
@@ -162,7 +185,7 @@ a {
 .star2 {
   animation-duration: 5s;
   top: -230px;
-  left: 175px;
+  left: 200px;
 }
 .star3 {
   animation-duration: 10s;
@@ -202,10 +225,121 @@ a {
 
 .star10 {
   animation-duration: 10s;
+  top: -630px;
+  left: 50px;
+}
+.star11 {
+  animation-duration: 10s;
+  top: -630px;
+  left: 150px;
+}
+.star12 {
+  animation-duration: 40s;
+  top: -630px;
+  left: 250px;
+}
+.star13 {
+  animation-duration: 35s;
+  top: -630px;
+  left: 350px;
+}
+.star14 {
+  animation-duration: 8s;
   top: -230px;
+  left: 450px;
+}
+.star15 {
+  animation-duration: 23s;
+  top: -630px;
+  left: 550px;
+}
+
+.star16 {
+  animation-duration: 90s;
+  top: -630px;
+  left: 650px;
+}
+
+.star17 {
+  animation-duration: 70s;
+  top: -630px;
+  left: 750px;
+}
+
+.star18 {
+  animation-duration: 33s;
+  top: -630px;
+  left: 850px;
+}
+
+.star19 {
+  animation-duration: 20s;
+  top: -630px;
   left: 985px;
 }
 
+.star20 {
+  animation-duration: 25s;
+  top: -630px;
+  left: 985px;
+}
+
+.star21 {
+  animation-duration: 10s;
+  top: -630px;
+  right: -50px;
+}
+.star22 {
+  animation-duration: 10s;
+  top: -630px;
+  right: -150px;
+}
+.star23 {
+  animation-duration: 40s;
+  top: -630px;
+  right: -250px;
+}
+
+.star24 {
+  animation-duration: 8s;
+  top: -230px;
+  right: -450px;
+}
+.star25 {
+  animation-duration: 23s;
+  top: -630px;
+  right: -550px;
+}
+
+.star26 {
+  animation-duration: 90s;
+  top: -630px;
+  right: -650px;
+}
+
+.star27 {
+  animation-duration: 70s;
+  top: -630px;
+  right: -750px;
+}
+
+.star28 {
+  animation-duration: 33s;
+  top: -630px;
+  right: -850px;
+}
+
+.star29 {
+  animation-duration: 20s;
+  top: -630px;
+  right: -985px;
+}
+
+.star30 {
+  animation-duration: 25s;
+  top: -630px;
+  right: -985px;
+}
 @keyframes star {
   to {
     transform: translateY(0);
