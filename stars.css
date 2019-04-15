@@ -1,0 +1,469 @@
+.star1,
+.star2,
+.star3,
+.star4,
+.star5,
+.star6,
+.star7,
+.star8,
+.star9,
+.star10,
+.star11,
+.star12,
+.star13,
+.star14,
+.star15,
+.star16,
+.star17,
+.star18,
+.star19,
+.star20,
+.star21,
+.star22,
+.star23,
+.star24,
+.star25,
+.star26,
+.star27,
+.star28,
+.star29,
+.star30,
+.star31,
+.star32,
+.star33,
+.star34,
+.star35,
+.star36,
+.star37,
+.star38,
+.star39,
+.star40,
+.star41,
+.star42,
+.star43,
+.star44,
+.star45,
+.star46,
+.star47,
+.star48,
+.star49,
+.star50,
+.star51,
+.star52,
+.star53,
+.star54,
+.star55,
+.star56,
+.star57,
+.star58,
+.star59,
+.star60 {
+  z-index: 8;
+  border-radius: 50%;
+  /* height: 0.5vh;
+  width: 0.5vh; */
+  height: 0.6vh;
+  width: 0.6vh;
+  opacity: 0.5;
+  animation-name: star;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  /* background-color: #fee001; */
+
+  position: absolute;
+  animation-duration: 10s;
+  top: -230px;
+  left: 50px;
+}
+
+.star1 {
+  animation-duration: 8s;
+  top: -230px;
+  left: 75px;
+  /* background-color: blue; */
+}
+
+.star2 {
+  animation-duration: 5s;
+  top: -230px;
+  left: 100px;
+  /* background-color: blue; */
+}
+
+.star3 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 125px;
+  /* background-color: blue; */
+}
+
+.star4 {
+  animation-duration: 6s;
+  top: -230px;
+  left: 150px;
+  /* background-color: blue; */
+}
+
+.star5 {
+  animation-duration: 3s;
+  top: -230px;
+  left: 175px;
+  /* background-color: blue; */
+}
+
+.star6 {
+  animation-duration: 15s;
+  top: -230px;
+  left: 200px;
+  /* background-color: blue; */
+}
+
+.star7 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 235px;
+  /* background-color: blue; */
+}
+
+.star8 {
+  animation-duration: 35s;
+  top: -230px;
+  left: 275px;
+  /* background-color: blue; */
+}
+
+.star9 {
+  animation-duration: 6s;
+  top: -230px;
+  left: 325px;
+  /* background-color: blue; */
+}
+
+.star10 {
+  animation-duration: 10s;
+  top: -630px;
+  left: 50px;
+  /* background-color: blue; */
+}
+
+.star11 {
+  animation-duration: 11s;
+  top: -230px;
+  left: 350px;
+  /* background-color: blue; */
+}
+
+.star12 {
+  animation-duration: 13s;
+  top: -230px;
+  left: 385px;
+  /* background-color: blue; */
+}
+
+.star13 {
+  animation-duration: 20s;
+  top: -230px;
+  left: 425px;
+  /* background-color: blue; */
+}
+
+.star14 {
+  animation-duration: 8s;
+  top: -230px;
+  left: 450px;
+  /* background-color: blue; */
+}
+
+.star15 {
+  animation-duration: 5s;
+  top: -230px;
+  left: 475px;
+  /* background-color: blue; */
+}
+
+.star16 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 475px;
+  /* background-color: blue; */
+}
+
+.star17 {
+  animation-duration: 7s;
+  top: -230px;
+  left: 525px;
+  /* background-color: blue; */
+}
+
+.star18 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 550px;
+  /* background-color: blue; */
+}
+
+.star19 {
+  animation-duration: 21s;
+  top: -230px;
+  left: 600px;
+  /* background-color: blue; */
+}
+
+.star20 {
+  animation-duration: 25s;
+  top: -230px;
+  left: 625px;
+  /* background-color: blue; */
+}
+
+.star21 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 623px;
+  /* background-color: blue; */
+}
+
+.star22 {
+  animation-duration: 5s;
+  top: -230px;
+  left: 650px;
+  /* background-color: blue; */
+}
+
+.star23 {
+  animation-duration: 25s;
+  top: -230px;
+  left: 675px;
+  /* background-color: blue; */
+}
+.star23 {
+  animation-duration: 20s;
+  top: -230px;
+  left: 725px;
+  /* background-color: blue; */
+}
+
+.star25 {
+  animation-duration: 17s;
+  top: -230px;
+  left: 750px;
+  /* background-color: blue; */
+}
+
+.star26 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 775px;
+}
+
+.star27 {
+  animation-duration: 8s;
+  top: -230px;
+  left: 785px;
+}
+
+.star28 {
+  animation-duration: 6s;
+  top: -230px;
+  left: 790px;
+}
+
+.star29 {
+  animation-duration: 5s;
+  top: -230px;
+  left: 810px;
+}
+
+.star30 {
+  animation-duration: 15s;
+  top: -230px;
+  left: 885px;
+}
+
+.star31 {
+  animation-duration: 15s;
+  top: -230px;
+  left: 905px;
+}
+
+.star32 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 925px;
+}
+
+.star33 {
+  animation-duration: 4s;
+  top: -230px;
+  left: 955px;
+}
+
+.star34 {
+  animation-duration: 20s;
+  top: -230px;
+  left: 965px;
+}
+
+.star35 {
+  animation-duration: 15s;
+  top: -230px;
+  left: 995px;
+}
+
+.star36 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 1000px;
+}
+
+.star37 {
+  animation-duration: 4s;
+  top: -230px;
+  left: 1030px;
+}
+
+.star38 {
+  animation-duration: 20s;
+  top: -230px;
+  left: 1040px;
+}
+.star39 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 1060px;
+}
+
+.star40 {
+  animation-duration: 13s;
+  top: -230px;
+  left: 1080px;
+}
+
+.star41 {
+  animation-duration: 13s;
+  top: -230px;
+  left: 1080px;
+}
+
+.star42 {
+  animation-duration: 4s;
+  top: -230px;
+  left: 1100px;
+}
+
+.star43 {
+  animation-duration: 2s;
+  top: -230px;
+  left: 1150px;
+}
+
+.star44 {
+  animation-duration: 23s;
+  top: -230px;
+  left: 1120px;
+}
+
+.star45 {
+  animation-duration: 11s;
+  top: -230px;
+  left: 1140px;
+}
+
+.star46 {
+  animation-duration: 12s;
+  top: -230px;
+  left: 1160px;
+}
+
+.star47 {
+  animation-duration: 20s;
+  top: -230px;
+  left: 1180px;
+}
+
+.star48 {
+  animation-duration: 14s;
+  top: -230px;
+  left: 1200px;
+}
+
+.star49 {
+  animation-duration: 16s;
+  top: -230px;
+  left: 1220px;
+}
+
+.star50 {
+  animation-duration: 18s;
+  top: -230px;
+  left: 1240px;
+}
+
+.star51 {
+  animation-duration: 14s;
+  top: -230px;
+  left: 1260px;
+}
+
+.star52 {
+  animation-duration: 4s;
+  top: -230px;
+  left: 1280px;
+}
+
+.star53 {
+  animation-duration: 9s;
+  top: -230px;
+  left: 1300px;
+}
+
+.star54 {
+  animation-duration: 12s;
+  top: -230px;
+  left: 1320px;
+}
+
+.star55 {
+  animation-duration: 18s;
+  top: -230px;
+  left: 1320px;
+}
+
+.star56 {
+  animation-duration: 18s;
+  top: -230px;
+  left: 1340px;
+}
+
+.star57 {
+  animation-duration: 30s;
+  top: -230px;
+  left: 1360px;
+}
+
+.star58 {
+  animation-duration: 4s;
+  top: -230px;
+  left: 1380px;
+}
+
+.star59 {
+  animation-duration: 7s;
+  top: -230px;
+  left: 1400px;
+}
+
+.star60 {
+  animation-duration: 10s;
+  top: -230px;
+  left: 1420px;
+}
+@keyframes star {
+  to {
+    transform: translateY(0);
+  }
+  from {
+    transform: translateY(60rem);
+  }
+}
