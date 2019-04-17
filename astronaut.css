@@ -4,7 +4,7 @@
   height: 45vh;
   width: auto;
   animation-name: float;
-  animation-duration: 180s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -12,8 +12,7 @@
 
 @media only screen and (max-width: 757px) {
   .astronaut {
-    height: 25vh;
-    width: auto;
+    display: none;
   }
 }
 
@@ -45,6 +44,6 @@
     transform: rotate(-30deg);
   }
   100% {
-    transform: translateX(90rem);
+    transform: translateX(-8rem);
   }
 }
