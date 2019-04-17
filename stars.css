@@ -60,17 +60,12 @@
 .star60 {
   z-index: 8;
   border-radius: 50%;
-  /* height: 0.5vh;
-  width: 0.5vh; */
   height: 0.6vh;
   width: 0.6vh;
   opacity: 0.5;
   animation-name: star;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
-  /* background-color: #fee001; */
-
   position: absolute;
   animation-duration: 10s;
   top: -230px;
@@ -81,174 +76,149 @@
   animation-duration: 8s;
   top: -230px;
   left: 75px;
-  /* background-color: blue; */
 }
 
 .star2 {
   animation-duration: 5s;
   top: -230px;
   left: 100px;
-  /* background-color: blue; */
 }
 
 .star3 {
   animation-duration: 10s;
   top: -230px;
   left: 125px;
-  /* background-color: blue; */
 }
 
 .star4 {
   animation-duration: 6s;
   top: -230px;
   left: 150px;
-  /* background-color: blue; */
 }
 
 .star5 {
   animation-duration: 3s;
   top: -230px;
   left: 175px;
-  /* background-color: blue; */
 }
 
 .star6 {
   animation-duration: 15s;
   top: -230px;
   left: 200px;
-  /* background-color: blue; */
 }
 
 .star7 {
   animation-duration: 10s;
   top: -230px;
   left: 235px;
-  /* background-color: blue; */
 }
 
 .star8 {
   animation-duration: 35s;
   top: -230px;
   left: 275px;
-  /* background-color: blue; */
 }
 
 .star9 {
   animation-duration: 6s;
   top: -230px;
   left: 325px;
-  /* background-color: blue; */
 }
 
 .star10 {
   animation-duration: 10s;
   top: -630px;
   left: 50px;
-  /* background-color: blue; */
 }
 
 .star11 {
   animation-duration: 11s;
   top: -230px;
   left: 350px;
-  /* background-color: blue; */
 }
 
 .star12 {
   animation-duration: 13s;
   top: -230px;
   left: 385px;
-  /* background-color: blue; */
 }
 
 .star13 {
   animation-duration: 20s;
   top: -230px;
   left: 425px;
-  /* background-color: blue; */
 }
 
 .star14 {
   animation-duration: 8s;
   top: -230px;
   left: 450px;
-  /* background-color: blue; */
 }
 
 .star15 {
   animation-duration: 5s;
   top: -230px;
   left: 475px;
-  /* background-color: blue; */
 }
 
 .star16 {
   animation-duration: 10s;
   top: -230px;
   left: 475px;
-  /* background-color: blue; */
 }
 
 .star17 {
   animation-duration: 7s;
   top: -230px;
   left: 525px;
-  /* background-color: blue; */
 }
 
 .star18 {
   animation-duration: 10s;
   top: -230px;
   left: 550px;
-  /* background-color: blue; */
 }
 
 .star19 {
   animation-duration: 21s;
   top: -230px;
   left: 600px;
-  /* background-color: blue; */
 }
 
 .star20 {
   animation-duration: 25s;
   top: -230px;
   left: 625px;
-  /* background-color: blue; */
 }
 
 .star21 {
   animation-duration: 10s;
   top: -230px;
   left: 623px;
-  /* background-color: blue; */
 }
 
 .star22 {
   animation-duration: 5s;
   top: -230px;
   left: 650px;
-  /* background-color: blue; */
 }
 
 .star23 {
   animation-duration: 25s;
   top: -230px;
   left: 675px;
-  /* background-color: blue; */
 }
 .star23 {
   animation-duration: 20s;
   top: -230px;
   left: 725px;
-  /* background-color: blue; */
 }
 
 .star25 {
   animation-duration: 17s;
   top: -230px;
   left: 750px;
-  /* background-color: blue; */
 }
 
 .star26 {
