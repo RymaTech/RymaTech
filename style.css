@@ -5,6 +5,10 @@
   src: url(Baron-Neue.otf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .title-font-black {
   color: black;
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
@@ -18,6 +22,11 @@
 .title-containers,
 .grid {
   margin: 5rem;
+}
+
+.title-containers {
+  display: flex;
+  justify-content: center;
 }
 
 /* Nav bar */
@@ -81,7 +90,7 @@ a {
 }
 
 /* PROFILE --------------------- */
-/* 
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +158,7 @@ a {
 .box6 {
   background: url(images/ryan-mum.jpg) no-repeat center center;
   background-size: cover;
-} */
+}
 /* Projects */
 .img-projects {
   height: 30vh;
@@ -251,41 +260,35 @@ a {
   flex-wrap: wrap;
 }
 
-.contactme {
+/* .contactme {
   min-height: 110px;
   min-width: 110px;
   background-color: #101010;
   border-radius: 50%;
   border: solid 4px #fee001;
-}
+} */
 
 .linkedin-icon {
-  height: 9vh;
-  margin-left: 1.3rem;
-  margin-top: 1.3rem;
+  height: 22vh;
+  /* margin-left: 1.3rem; */
+  /* margin-top: 1.3rem; */
 }
 
 .github-icon {
-  height: 12vh;
-  margin-left: 0.7rem;
-  margin-top: 0.7rem;
+  height: 22vh;
+  /* margin-left: 0.7rem; */
+  /* margin-top: 0.7rem; */
 }
 
 .email-icon {
-  height: 9vh;
-  margin-left: 1.3rem;
-  margin-top: 1.3rem;
+  height: 22vh;
+  /* margin-left: 1.3rem; */
+  /* margin-top: 1.3rem; */
 }
-
 .iphone-icon {
-  height: 9vh;
-  margin-left: 1.3rem;
-  margin-top: 1.3rem;
-}
-
-.title-containers {
-  display: flex;
-  justify-content: center;
+  height: 22vh;
+  /* margin-left: 1.3rem; */
+  /* margin-top: 1.3rem; */
 }
 
 /* media queries  */
