@@ -44,6 +44,6 @@
     transform: rotate(-30deg);
   }
   100% {
-    transform: translateX(-8rem);
+    transform: translateX(90rem);
   }
 }

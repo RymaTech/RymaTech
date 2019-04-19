@@ -1,17 +1,20 @@
-/* Overall pages display classes */
-
-@font-face {
-  font-family: Baron-Neue;
-  src: url(Baron-Neue.otf);
-}
-
+/* OVERALL PAGE DISPLAY  ----------------------------------------------- */
 html {
   scroll-behavior: smooth;
 }
 
 body {
   max-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Baron-Neue;
+  src: url(Baron-Neue.otf);
 }
 
 .title-font-black {
@@ -33,7 +36,15 @@ body {
   justify-content: center;
 }
 
-/* Nav bar */
+/* MEDIA QUERIES   -----------------------------------------------  */
+
+@media only screen and (max-width: 757px) {
+  .nav-li {
+    display: none;
+  }
+}
+
+/* NAV BAR  -----------------------------------------------  */
 
 .ul-container {
   display: flex;
@@ -43,7 +54,7 @@ body {
   font-family: 'Baron-Neue', 'Helvetica', 'Arial';
   height: 4rem;
   font-size: 17.5px;
-  background-color: #101010;
+  background-color: hsla(0, 0%, 0%, 0.5);
   position: fixed;
   width: 100vw;
   z-index: 200;
@@ -69,11 +80,7 @@ body {
   text-decoration-color: #fee001;
 }
 
-a {
-  text-decoration: none;
-}
-
-/* Header section */
+/* HEADER SECTION ----------------------------------------------- */
 
 .header-image-container {
   display: flex;
@@ -93,56 +100,14 @@ a {
   z-index: 100;
 }
 
-/* PROFILE --------------------- */
-@media only screen and (max-width: 880px) {
-  .flex-container {
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-}
+/* PROFILE SECTION  ----------------------------------------------- */
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  color: #8d8d8d;
-  font-family: 'baron-neue-regular', 'Helvetica', 'Arial';
-  font-weight: 400;
-}
-
-.profile-paragraph {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  text-align: justify;
-  padding: 0;
-  line-height: 1.5;
-}
-
-.grid {
+.container {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-gap: 1em;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  font-weight: 400;
-  height: 65vh;
-  width: 35vw;
-  flex: 1;
-}
-
-.profile-info {
-  width: 45rem;
-  flex: 2;
-  padding-top: 4.5rem;
-  padding-right: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  word-wrap: wrap;
-  flex-direction: column;
-}
-
-.box {
-  min-width: 10rem;
+  grid-template-columns: 10rem 10rem auto;
+  grid-template-rows: 10rem 10rem 10rem;
+  grid-gap: 1rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .box1 {
@@ -151,29 +116,59 @@ a {
 }
 
 .box2 {
-  background: url(images/ryan.jpg) no-repeat center center;
+  background: url(images/ryan.jpg) no-repeat center top;
   background-size: cover;
 }
 
 .box3 {
-  background: url(images/FAC-Crew.jpg) no-repeat center center;
-  background-size: cover;
+  grid-row: span 3;
+  grid-column: span 1;
 }
 
 .box4 {
-  background: url(images/ireland.jpg) no-repeat center center;
+  background: url(images/FAC-Crew.jpg) no-repeat center top;
   background-size: cover;
 }
 
 .box5 {
-  background: url(images/oasis.jpg) no-repeat center center;
+  background: url(images/ireland.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .box6 {
-  background: url(images/ryan-mum.jpg) no-repeat center center;
+  background: url(images/oasis.jpg) no-repeat center top;
   background-size: cover;
 }
+
+.box7 {
+  background: url(images/ryan-mum.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.profile-paragraph {
+  font-size: 1rem;
+  color: #8d8d8d;
+  margin-bottom: 1rem;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: 'baron-neue-regular', 'Helvetica', 'Arial';
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 766px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 1rem;
+    margin: 0 1rem 0 1rem;
+  }
+  .box3 {
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+}
+
 /* Projects */
 .img-projects {
   height: 30vh;
@@ -288,12 +283,4 @@ a {
 }
 .iphone-icon {
   height: 22vh;
-}
-
-/* media queries  */
-
-@media only screen and (max-width: 757px) {
-  .nav-li {
-    display: none;
-  }
 }
