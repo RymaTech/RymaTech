@@ -4,7 +4,7 @@
   height: 45vh;
   width: auto;
   animation-name: float;
-  animation-duration: 10s;
+  animation-duration: 180s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
