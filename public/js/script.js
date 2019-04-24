@@ -1,6 +1,6 @@
 const menu = document.getElementsByClassName('menu')[0];
 const menuCover = document.getElementsByClassName('menu-cover')[0];
-const mobileNav = document.getElementsByClassName('mobile-nav')[2];
+const mobileNav = document.getElementsByClassName('mobile-nav');
 console.log(mobileNav);
 window.onscroll = () => {
   const nav = document.getElementsByClassName('ul-container')[0];
@@ -14,7 +14,6 @@ window.onscroll = () => {
 
 menu.addEventListener('click', () => {
   menuCover.style.visibility = 'visible';
-  menuCover.style.transition = '5s ease-out';
 });
 
 mobileNav.addEventListener('click', () => {
