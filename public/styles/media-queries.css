@@ -1,0 +1,164 @@
+/* NAV BAR ----------------------------------------------- */
+
+@media only screen and (max-width: 757px) {
+  .nav-li {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .menu {
+    height: 4vh;
+    width: auto;
+    margin: 1rem;
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+/* PROFILE ----------------------------------------------- */
+
+/* iPhone 5/SE */
+@media only screen and (min-width: 320px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 10rem 10rem 10rem;
+    grid-gap: 1rem;
+    margin: 0 1rem 33rem 1rem;
+  }
+  .box2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .box3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .box1,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    background: none;
+    background-size: none;
+  }
+}
+
+/* Galaxy S5 */
+@media only screen and (min-width: 360px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 10rem 10rem 10rem;
+    grid-gap: 1rem;
+    margin: 0 1rem 26rem 1rem;
+  }
+  .box2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .box3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .box1,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    background: none;
+    background-size: none;
+  }
+}
+
+/* iPhone 6/7/8 & iPhone X */
+@media only screen and (min-width: 375px) {
+}
+
+/* Pixel 2  & Pixel 2 XL */
+@media only screen and (min-width: 411px) {
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen and (min-width: 414px) {
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 10rem 10rem auto;
+    grid-template-rows: 10rem 10rem 10rem;
+    grid-gap: 1rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .box1 {
+    background: url(../images/dev-profile.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .box2 {
+    background: url(../images/ryan.jpg) no-repeat center top;
+    background-size: cover;
+  }
+
+  .box3 {
+    grid-row: span 3;
+    grid-column: span 1;
+  }
+
+  .box4 {
+    background: url(../images/FAC-Crew.jpg) no-repeat center top;
+    background-size: cover;
+  }
+
+  .box5 {
+    background: url(../images/ireland.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .box6 {
+    background: url(../images/oasis.jpg) no-repeat center top;
+    background-size: cover;
+  }
+
+  .box7 {
+    background: url(../images/ryan-mum.jpg) no-repeat center top;
+    background-size: cover;
+  }
+
+  .profile-paragraph {
+    font-size: 1rem;
+    color: #8d8d8d;
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'baron-neue-regular', 'Helvetica', 'Arial';
+    font-weight: 400;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (min-width: 1024px) {
+}
+
+/* PROJECTS -----------------------------------------------  */
+
+/* for touch screen devices */
+@media (hover: none) {
+  .app-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}

@@ -14,7 +14,7 @@ a {
 
 @font-face {
   font-family: Baron-Neue;
-  src: url(Baron-Neue.otf);
+  src: url(../fonts/Baron-Neue.otf);
 }
 
 .title-font-black {
@@ -36,15 +36,32 @@ a {
   justify-content: center;
 }
 
-/* MEDIA QUERIES   -----------------------------------------------  */
+/* NAV BAR  -----------------------------------------------  */
 
-@media only screen and (max-width: 757px) {
-  .nav-li {
-    display: none;
-  }
+.menu {
+  visibility: hidden;
 }
 
-/* NAV BAR  -----------------------------------------------  */
+.menu-cover {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #101010;
+  z-index: 999;
+  position: absolute;
+  border-top: solid 6px #fee001;
+}
+
+.mobile-nav {
+  color: white;
+  margin: 1rem;
+}
+
+.mobile-nav-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+}
 
 .ul-container {
   display: flex;
@@ -88,7 +105,7 @@ a {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background: url(images/bg.jpg) no-repeat center center;
+  background: url(../images/bg.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -111,12 +128,12 @@ a {
 }
 
 .box1 {
-  background: url(images/dev-profile.jpg) no-repeat center center;
+  background: url(../images/dev-profile.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .box2 {
-  background: url(images/ryan.jpg) no-repeat center top;
+  background: url(../images/ryan.jpg) no-repeat center top;
   background-size: cover;
 }
 
@@ -126,22 +143,22 @@ a {
 }
 
 .box4 {
-  background: url(images/FAC-Crew.jpg) no-repeat center top;
+  background: url(../images/FAC-Crew.jpg) no-repeat center top;
   background-size: cover;
 }
 
 .box5 {
-  background: url(images/ireland.jpg) no-repeat center center;
+  background: url(../images/ireland.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .box6 {
-  background: url(images/oasis.jpg) no-repeat center top;
+  background: url(../images/oasis.jpg) no-repeat center top;
   background-size: cover;
 }
 
 .box7 {
-  background: url(images/ryan-mum.jpg) no-repeat center top;
+  background: url(../images/ryan-mum.jpg) no-repeat center top;
   background-size: cover;
 }
 
@@ -155,24 +172,11 @@ a {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 766px) {
-  .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
-    grid-gap: 1rem;
-    margin: 0 1rem 0 1rem;
-  }
-  .box3 {
-    grid-row-start: 7;
-    grid-row-end: 9;
-  }
-}
-
 /* Projects */
 .img-projects {
   height: 30vh;
   width: auto;
+  max-width: 95vw;
 }
 .project-container {
   display: flex;
@@ -223,16 +227,6 @@ a {
 
 .project-listing:hover .project-image img {
   filter: blur(2px);
-}
-
-/* for touch screen devices */
-@media (hover: none) {
-  .app-title {
-    opacity: 1;
-  }
-  .location-image img {
-    filter: blur(2px);
-  }
 }
 
 /* Tech Stack section */
