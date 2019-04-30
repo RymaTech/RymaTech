@@ -120,5 +120,23 @@ Flexbox, API, XMLHttp requests, XHR, JSON, Software Architecture
 
 💡 Team Project : FoodFlix
 
-A simple web app includes two APIs and updates the results to the DOM. 
+A simple web app includes two APIs and updates the results to the DOM. The app helps users decide what to watch and eat based on their preferences. 
 
+## WEEK 2 : Testing
+💎 What We Learnt
+
+The Test-driven Development(TDD), Unit & Integration tests, Recatoring, Tape, Callback function, Array methods, IIFE, DOM manipulation
+
+
+💡 Team Project : Not So Wunderlist
+
+A simple todo list app. 
+
+## WEEK 1 : Github
+💎 What We Learnt
+
+Semantic HTML, Accessibility,CSS - BEM, Mobile-First, Responsive Web Design, Gitflow and use of github, Pair programming, Command Line, Regular Expressions
+
+💡 Team Project : Lucky13
+
+We were tasked with creating a digital agency type styled website displaying team mates as employees. The main aim of this project was to get to know fellow Founders & Coders students as well as becoming familar with Git. 
