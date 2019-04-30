@@ -142,8 +142,11 @@
     margin-bottom: 1rem;
     text-align: justify;
     line-height: 1.5;
-    font-family: 'baron-neue-regular', 'Helvetica', 'Arial';
+    font-family: "baron-neue-regular", "Helvetica", "Arial";
     font-weight: 400;
+  }
+  .mySidenav {
+    visibility: hidden;
   }
 }
 
