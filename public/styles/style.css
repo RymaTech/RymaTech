@@ -19,7 +19,7 @@ a {
 
 .title-font-black {
   color: black;
-  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-family: "Baron-Neue", "Helvetica", "Arial";
   font-size: 2rem;
   border-bottom: solid 6px #fee001;
   display: inline-block;
@@ -37,30 +37,62 @@ a {
 }
 
 /* NAV BAR  -----------------------------------------------  */
-
-.menu {
-  visibility: hidden;
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  font-family: "Baron-Neue", "Helvetica", "Arial";
 }
 
-.menu-cover {
-  visibility: hidden;
-  height: 100%;
-  width: 100%;
-  background-color: #101010;
-  z-index: 999;
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #fee001;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
   position: absolute;
-  border-top: solid 6px #fee001;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-.mobile-nav {
-  color: white;
-  margin: 1rem;
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
-
+/* ----fsdfjbsdkfjhsdkjfhsdjhfksjhfkjshdfkjhsdkfjhskjdfhsdkjfhsdjkfhsdkjhfkjsdhfjdhsksf */
 .mobile-nav-container {
   display: flex;
   flex-direction: column;
-  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-family: "Baron-Neue", "Helvetica", "Arial";
 }
 
 .ul-container {
@@ -68,7 +100,7 @@ a {
   justify-content: flex-end;
   align-items: center;
   border-top: solid 6px #fee001;
-  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-family: "Baron-Neue", "Helvetica", "Arial";
   height: 4rem;
   font-size: 17.5px;
   background-color: hsla(0, 0%, 0%, 0);
@@ -111,10 +143,10 @@ a {
 
 .title-font {
   font-size: 3rem;
-  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-family: "Baron-Neue", "Helvetica", "Arial";
   color: white;
   text-align: center;
-  z-index: 100;
+  z-index: 4;
 }
 
 /* PROFILE SECTION  ----------------------------------------------- */
@@ -168,7 +200,7 @@ a {
   margin-bottom: 1rem;
   text-align: justify;
   line-height: 1.5;
-  font-family: 'baron-neue-regular', 'Helvetica', 'Arial';
+  font-family: "baron-neue-regular", "Helvetica", "Arial";
   font-weight: 400;
 }
 
@@ -202,7 +234,7 @@ a {
 }
 
 .app-title {
-  font-family: 'Baron-Neue', 'Helvetica', 'Arial';
+  font-family: "Baron-Neue", "Helvetica", "Arial";
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
