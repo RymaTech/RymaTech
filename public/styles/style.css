@@ -220,6 +220,7 @@ a {
 /* hover styles */
 .project-listing {
   position: relative;
+  text-align: center;
 }
 
 .project-image {
