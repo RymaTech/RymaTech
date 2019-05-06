@@ -1,5 +1,18 @@
 const sideNav = document.getElementsByClassName("sidennav")[0];
 const menu = document.getElementsByClassName("menu")[0];
+const profileClick = document.getElementById("profileClick");
+const projectsClick = document.getElementById("projectsClick");
+const techStackClick = document.getElementById("techStackClick");
+const ContactClick = document.getElementById("ContactClick");
+
+let count = true;
+let mobileArr = [
+  menu,
+  profileClick,
+  projectsClick,
+  techStackClick,
+  ContactClick
+];
 
 window.onscroll = () => {
   const nav = document.getElementsByClassName("ul-container")[0];
@@ -10,8 +23,8 @@ window.onscroll = () => {
     nav.style.transition = "background-color 1.5s ease-out";
   }
 };
-let count = true;
-menu.addEventListener("click", () => {
+
+const controlMobileNavBar = () => {
   if (count) {
     document.getElementById("mySidenav").style.width = "250px";
     menu.src = "./public/images/x.png";
@@ -21,4 +34,10 @@ menu.addEventListener("click", () => {
     menu.src = "./public/images/menu.png";
     count = true;
   }
+};
+
+mobileArr.map(x => {
+  x.addEventListener("click", () => {
+    controlMobileNavBar();
+  });
 });
