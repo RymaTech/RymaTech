@@ -10,7 +10,7 @@
 - [Todo App](https://github.com/RymaTech/React-Todo-App)
   - Personal Project.  
   
-  ### Node.js Projects
+### Node.js Projects
   
 - [Groundworks](https://github.com/FAC-Sixteen/groundworks)
   - Tech for Better Project. 
@@ -29,8 +29,7 @@
 - [Not So WunderList](https://fac-sixteen.github.io/week2-project-RRJD/)
   - Two day project completed in week 2
 
-  
-  ### JavaScript Projects
+ ### JavaScript Projects
   
 - [My portfolio](https://rymatech.github.io/)
   - Website to display projects
