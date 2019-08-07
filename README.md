@@ -20,6 +20,9 @@ Each week introduces a new topic:
 | Week 5 | Node.js 2/2 | Week 13      | React                   |
 | Week 6 | PostgreSQL  | Week 13 - 16 | Tech For Better Project |
 
+
+
+toby loves this shit
 Every day has a mixed of learning coding and soft-skills:
 
 | Day       | Activity                                                                       |
